@@ -1,0 +1,31 @@
+@import "compass/css3/text-shadow";
+
+$default-font: Monaco, monospace;
+
+.masthead {
+  font-family: $default-font;
+  @include text-shadow(rgba(gray, 0.2) 1px 1px 0, rgba(gray, 0.2) 2px 2px 0, rgba(gray, 0.2) 3px 3px 0);
+  background: rgb(189, 146, 207);
+  height: 250px;
+  clear: both;
+  p {
+    margin: 0;
+    clear: both;
+  }
+}
+
+.avatar-icon {
+  text-align: center;
+  background: rgb(189, 146, 207);
+  font-size: 100px;
+  color: rgb(126, 89, 141);
+  clear: both;
+}
+
+.masthead-text {
+  text-align: center;
+  background: rgb(189, 146, 207);
+  font-size: 17px;
+  color: rgb(73, 42, 86);
+  clear: both;
+}

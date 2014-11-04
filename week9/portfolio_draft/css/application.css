@@ -1,0 +1,143 @@
+/* line 5, ../sass/_masthead.scss */
+.masthead {
+  font-family: Monaco, monospace;
+  text-shadow: rgba(128, 128, 128, 0.2) 1px 1px 0, rgba(128, 128, 128, 0.2) 2px 2px 0, rgba(128, 128, 128, 0.2) 3px 3px 0;
+  background: #bd92cf;
+  height: 250px;
+  clear: both;
+}
+/* line 11, ../sass/_masthead.scss */
+.masthead p {
+  margin: 0;
+  clear: both;
+}
+
+/* line 17, ../sass/_masthead.scss */
+.avatar-icon {
+  text-align: center;
+  background: #bd92cf;
+  font-size: 100px;
+  color: #7e598d;
+  clear: both;
+}
+
+/* line 25, ../sass/_masthead.scss */
+.masthead-text {
+  text-align: center;
+  background: #bd92cf;
+  font-size: 17px;
+  color: #492a56;
+  clear: both;
+}
+
+/* line 5, ../sass/_mediagrid.scss */
+.media-grid {
+  list-style-type: none;
+  background: #644b6e;
+  margin: 0;
+  padding: 0;
+}
+/* line 11, ../sass/_mediagrid.scss */
+.media-grid li {
+  background: #482955;
+  float: left;
+  height: 200px;
+  width: 20%;
+  font-size: 1.5em;
+  font-family: Monaco, monospace;
+  color: #836e8c;
+}
+
+/* line 23, ../sass/_mediagrid.scss */
+#opacity-10 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+}
+
+/* line 27, ../sass/_mediagrid.scss */
+.media-grid li:nth-child(even) {
+  background: #846f8d;
+}
+
+/* line 31, ../sass/_mediagrid.scss */
+.media-grid.media-grid-sm li {
+  width: 10%;
+  height: 100px;
+}
+
+/* line 36, ../sass/_mediagrid.scss */
+.media-grid img {
+  padding-left: 90px;
+  padding-top: 60px;
+}
+
+/* line 3, ../sass/_herounit.scss */
+.hero-unit {
+  font-family: Monaco, monospace;
+  font-size: .9em;
+  background: #694f77;
+  vertical-align: bottom;
+  list-style-type: none;
+  height: 250px;
+  text-align: center;
+  margin: 0;
+  padding-left: 515px;
+  padding-top: 50px;
+  padding-bottom: 0;
+  clear: both;
+}
+/* line 17, ../sass/_herounit.scss */
+.hero-unit li {
+  vertical-align: bottom;
+  text-align: center;
+  color: #836e8c;
+  background: #573766;
+  height: 250px;
+  width: 250px;
+  clear: both;
+}
+
+/* line 29, ../sass/_herounit.scss */
+a:active {
+  color: #fff;
+}
+
+/* line 33, ../sass/_herounit.scss */
+a:visited {
+  color: #d0c8d3;
+}
+
+/* line 37, ../sass/_herounit.scss */
+a:link {
+  color: #d0c8d3;
+}
+
+/* line 3, ../sass/_aboutus.scss */
+.about-us {
+  list-style-type: none;
+  background: #d0c8d3;
+  color: #593868;
+  font-family: Monaco, monospace;
+  height: 400px;
+  margin: .1em;
+  padding: 3em;
+  clear: both;
+}
+
+/* line 14, ../sass/_aboutus.scss */
+.about-us-left {
+  float: left;
+  width: 500px;
+}
+/* line 18, ../sass/_aboutus.scss */
+.about-us-left img {
+  background: #593868;
+  height: 281px;
+  width: 293px;
+}
+
+/* line 26, ../sass/_aboutus.scss */
+.about-us-right {
+  float: right;
+  width: 500px;
+}
