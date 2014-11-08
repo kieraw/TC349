@@ -1,0 +1,49 @@
+@import "compass/css3/text-shadow";
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+
+$default-font: Monaco, monospace;
+
+.masthead {
+  font-family: $default-font;
+  @include text-shadow(rgba(gray, 0.2) 1px 1px 0, rgba(gray, 0.2) 2px 2px 0, rgba(gray, 0.2) 3px 3px 0);
+  background: rgb(189, 146, 207);
+  height: 250px;
+  clear: both;
+  p {
+    margin: 0;
+    clear: both;
+  }
+
+  .avatar-icon img {
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .avatar-icon img:hover {
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+  }
+
+  img {
+    height: 100px;
+    width: 100px;
+
+  }
+}
+
+.avatar-icon {
+  text-align: center;
+  background: rgb(189, 146, 207);
+  font-size: 100px;
+  color: rgb(126, 89, 141);
+  clear: both;
+}
+
+.masthead-text {
+  text-align: center;
+  background: rgb(189, 146, 207);
+  font-size: 17px;
+  color: rgb(73, 42, 86);
+  clear: both;
+}

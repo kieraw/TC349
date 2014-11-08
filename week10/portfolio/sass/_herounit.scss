@@ -1,0 +1,39 @@
+$default-font: Monaco, monospace;
+
+.hero-unit {
+  font-family: $default-font;
+  font-size: .9em;
+  background: rgb(105, 79, 119);
+  vertical-align: bottom;
+  list-style-type: none;
+  height: 250px;
+  text-align: center;
+  margin: 0;
+  padding-left: 515px;
+  padding-top: 50px;
+  padding-bottom: 0;
+  clear: both;
+
+  li {
+      vertical-align: bottom;
+      text-align: center;
+      color: rgb(131, 110, 140);
+      background: rgb(87, 55, 102);
+      height: 250px;
+      width: 250px;
+      clear: both;
+  }
+
+}
+
+a:active{
+  color: #fff;
+}
+
+a:visited{
+  color: rgb(208, 200, 211);
+}
+
+a:link{
+  color: rgb(208, 200, 211);
+}

@@ -1,0 +1,29 @@
+$default-font: Monaco, monospace;
+
+.about-us {
+  list-style-type: none;
+  background: rgb(208, 200, 211);
+  color: rgb(89, 56, 104);
+  font-family: $default-font;
+  height: 400px;
+  margin: .1em;
+  padding: 3em;
+  clear: both;
+}
+
+.about-us-left {
+  float: left;
+  width: 500px;
+
+  img {
+    background: rgb(89, 56, 104);
+    height: 281px;
+    width: 293px;
+  }
+
+}
+
+.about-us-right {
+  float: right;
+  width: 500px;
+}

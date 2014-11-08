@@ -1,0 +1,39 @@
+@import "compass/css3/opacity";
+
+$default-font: Monaco, monospace;
+
+.media-grid {
+  list-style-type: none;
+  background: rgb(100, 75, 110);
+  margin: 0;
+  padding: 0;
+
+    li {
+    background: #482955;
+    float: left;
+    height: 200px;
+    width: 20%;
+    font-size: 1.5em;
+    font-family: $default-font;
+    color: rgb(131, 110, 140);
+  }
+
+}
+
+#opacity-10 {
+  @include opacity(.9);
+}
+
+.media-grid li:nth-child(even) {
+  background: #846f8d;
+}
+
+.media-grid.media-grid-sm li {
+  width: 10%;
+  height: 100px;
+}
+
+.media-grid img {
+  padding-left: 90px;
+  padding-top: 60px;
+}
